@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy Policy for VORTEX Social Media Automation.">
+  <title>VORTEX Social Media Automation - Privacy Policy</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --ink: #eef4f3;
+      --muted: #a7b8b5;
+      --line: rgba(184, 221, 211, .18);
+      --panel: rgba(14, 28, 31, .86);
+      --accent: #8de2c7;
+      --accent-strong: #42c49b;
+      --background: #071214;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      min-width: 320px;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 85% 0%, rgba(66, 196, 155, .14), transparent 32rem),
+        linear-gradient(135deg, #071214 0%, #0b1a1d 54%, #102522 100%);
+      font-family: Georgia, 'Times New Roman', serif;
+      line-height: 1.7;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      opacity: .28;
+      background-image: linear-gradient(rgba(255,255,255,.025) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.025) 1px, transparent 1px);
+      background-size: 42px 42px;
+      mask-image: linear-gradient(to bottom, black, transparent 80%);
+    }
+
+    a { color: var(--accent); }
+    a:hover { color: #c2f4e5; }
+
+    .wrap { width: min(100% - 2rem, 900px); margin: 0 auto; }
+    header { padding: 4.5rem 0 2.5rem; }
+    .mark {
+      display: inline-flex;
+      align-items: center;
+      gap: .65rem;
+      color: var(--accent);
+      font: 700 .78rem/1.2 'Trebuchet MS', sans-serif;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+    }
+    .mark::before {
+      content: "";
+      width: 2rem;
+      height: .18rem;
+      background: var(--accent-strong);
+      box-shadow: .45rem 0 0 rgba(141, 226, 199, .4);
+    }
+    h1 {
+      max-width: 760px;
+      margin: 1.2rem 0 .8rem;
+      font-size: clamp(2.3rem, 7vw, 4.8rem);
+      line-height: 1.02;
+      letter-spacing: .01em;
+      font-weight: 500;
+    }
+    .lede { max-width: 680px; margin: 0; color: var(--muted); font-size: 1.08rem; }
+    .date { margin-top: 1.5rem; color: var(--accent); font: .75rem/1.4 'Trebuchet MS', sans-serif; letter-spacing: .12em; text-transform: uppercase; }
+
+    main { padding: 1rem 0 4rem; }
+    .policy {
+      padding: clamp(1.35rem, 4vw, 2.8rem);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      box-shadow: 0 24px 80px rgba(0, 0, 0, .22);
+      backdrop-filter: blur(10px);
+    }
+    section + section { margin-top: 2.5rem; }
+    h2 { margin: 0 0 .7rem; color: var(--accent); font-size: 1.35rem; line-height: 1.25; font-weight: 600; }
+    p { margin: .65rem 0; }
+    ul, ol { margin: .65rem 0; padding-left: 1.35rem; }
+    li + li { margin-top: .35rem; }
+    footer { padding: 0 0 3rem; color: var(--muted); font: .78rem/1.5 'Trebuchet MS', sans-serif; }
+
+    @media (max-width: 560px) {
+      header { padding-top: 3rem; }
+      h1 { font-size: 2.5rem; }
+      .policy { border-radius: 6px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="wrap">
+    <div class="mark">VORTEX / DOCUMENTATION</div>
+    <h1>Social Media Automation<br>Privacy Policy</h1>
+    <p class="lede">This policy explains how the VORTEX Social Media Automation workflow uses information while connecting n8n, Google Sheets, Google Gemini, and LinkedIn.</p>
+    <div class="date">Effective September 24, 2026</div>
+  </header>
+
+  <main class="wrap">
+    <article class="policy">
+      <section>
+        <h2>Information Used</h2>
+        <p>The application may process:</p>
+        <ul>
+          <li>Article or content information stored in the configured Google Sheets workflow.</li>
+          <li>Text generated or processed by Google Gemini.</li>
+          <li>LinkedIn account and organization information required to authorize and publish content.</li>
+          <li>OAuth credentials and access tokens required to authenticate the connected services.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>How Information Is Used</h2>
+        <p>Information is used only as necessary to operate the configured automation workflow, including:</p>
+        <ol>
+          <li>Retrieving content from the configured Google Sheets workflow.</li>
+          <li>Generating summaries and social-media content using Google Gemini.</li>
+          <li>Generating platform-specific LinkedIn content.</li>
+          <li>Publishing generated content to the configured VORTEX LinkedIn Page.</li>
+          <li>Maintaining the authentication and operation of the automation workflow.</li>
+        </ol>
+      </section>
+
+      <section>
+        <h2>Third-Party Services</h2>
+        <p>The workflow uses third-party services including Google Sheets, Google Gemini, n8n, and LinkedIn. Each third-party service may process information according to its own privacy policy, terms, and API requirements.</p>
+      </section>
+
+      <section>
+        <h2>Data Storage and Retention</h2>
+        <p>The application does not intentionally sell personal information or use information for advertising purposes.</p>
+        <p>Data is processed only as necessary for the configured automation workflow. The project does not intentionally retain information beyond what is necessary for operating the workflow and the connected services. Connected services may have their own storage and retention practices.</p>
+      </section>
+
+      <section>
+        <h2>Security</h2>
+        <p>Authentication and OAuth credentials are used to authorize access to connected services. API keys, OAuth client secrets, access tokens, and other credentials should be stored securely and should not be publicly exposed.</p>
+      </section>
+
+      <section>
+        <h2>User Control</h2>
+        <p>The user can revoke the application's authorization through the relevant third-party service and can disable or remove the automation workflow.</p>
+      </section>
+
+      <section>
+        <h2>Changes to This Policy</h2>
+        <p>This privacy policy may be updated if the application's functionality or data practices change. Updated versions will be published at this same public URL.</p>
+      </section>
+
+      <section>
+        <h2>Contact</h2>
+        <p>For questions regarding this privacy policy or the VORTEX Social Media Automation application, users may contact the application owner through the <a href="https://www.linkedin.com/company/vortex-ai-cognition/">VORTEX LinkedIn Company Page</a>.</p>
+      </section>
+    </article>
+  </main>
+
+  <footer class="wrap">VORTEX Social Media Automation · Privacy Policy</footer>
+</body>
+</html>
