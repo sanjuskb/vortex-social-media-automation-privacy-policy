@@ -6,4 +6,4 @@ The workflow connects n8n with Google Sheets, Google Gemini, and LinkedIn to gen
 
 ## Public Privacy Policy URL
 
-The verified public URL will be added here after the GitHub Pages deployment completes.
+https://sanjuskb.github.io/vortex-social-media-automation-privacy-policy/
